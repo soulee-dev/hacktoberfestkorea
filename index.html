@@ -1,0 +1,785 @@
+
+<!doctype html>
+<html lang="ko" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://www.hacktoberfestkorea.com/">
+      
+      
+      
+        <link rel="next" href="Hacktoberfest_code_of_conduct/">
+      
+      
+      <link rel="icon" href="assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
+    
+    
+      
+        <title>2022 Hacktoberfest Korea Unofficial</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="2022 Hacktoberfest Korea Unofficial" />
+  <meta property="og:description" content="This is korean fan page of Hacktoberfest" />
+  <meta property="og:url" content="https://www.hacktoberfestkorea.com/" />
+  <meta property="og:image" content="https://www.hacktoberfestkorea.com/assets/favicon.svg" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="256" />
+  <meta property="og:image:height" content="256" />
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="2022 Hacktoberfest Korea Unofficial">
+  <meta name="twitter:creator" content="2022 Hacktoberfest Korea Unofficial">
+  <meta property="twitter:title" content="2022 Hacktoberfest Korea Unofficial">
+  <meta name="twitter:description" content="This is korean fan page of Hacktoberfest">
+  <meta name="twitter:image" content="https://www.hacktoberfestkorea.com/assets/favicon.svg">
+  <meta name="twitter:image:alt" content="2022 Hacktoberfest Korea Unofficial">
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#notice" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="상단/헤더">
+    <a href="." title="2022 Hacktoberfest Korea Unofficial" class="md-header__button md-logo" aria-label="2022 Hacktoberfest Korea Unofficial" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            2022 Hacktoberfest Korea Unofficial
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="검색">
+        
+        <button type="reset" class="md-search__icon md-icon" title="지우기" aria-label="지우기" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            검색 초기화
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="네비게이션" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="2022 Hacktoberfest Korea Unofficial" class="md-nav__button md-logo" aria-label="2022 Hacktoberfest Korea Unofficial" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    2022 Hacktoberfest Korea Unofficial
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notice" class="md-nav__link">
+    공지 사항
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hacktoberfest" class="md-nav__link">
+    핵토버페스트(Hacktoberfest)란?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rules-of-events" class="md-nav__link">
+    행사 규칙
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#low-code-no-code" class="md-nav__link">
+    로우코드, 노코드 참여
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-of-previous-event-participation" class="md-nav__link">
+    이전 행사 참여 후기
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hangul-project" class="md-nav__link">
+    한글 프로젝트
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-project-for-beginners" class="md-nav__link">
+    영문 초보자용 프로젝트
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-participant-list" class="md-nav__link">
+    현재 참여자 리스트
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#associated-link" class="md-nav__link">
+    관련 링크
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Hacktoberfest_code_of_conduct/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    행동 규칙
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="super_beginners_guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    왕초보자용 가이드
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="beginners_guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    초보자용 가이드
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="build/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    작업환경 구성 방법
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    자주 묻는 질문
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://phg98.github.io/hacktoberfestkorea2021/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2021년 자료
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#notice" class="md-nav__link">
+    공지 사항
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hacktoberfest" class="md-nav__link">
+    핵토버페스트(Hacktoberfest)란?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rules-of-events" class="md-nav__link">
+    행사 규칙
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#low-code-no-code" class="md-nav__link">
+    로우코드, 노코드 참여
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-of-previous-event-participation" class="md-nav__link">
+    이전 행사 참여 후기
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hangul-project" class="md-nav__link">
+    한글 프로젝트
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-project-for-beginners" class="md-nav__link">
+    영문 초보자용 프로젝트
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-participant-list" class="md-nav__link">
+    현재 참여자 리스트
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#associated-link" class="md-nav__link">
+    관련 링크
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<!-- ![hacktoberfest 2021 coming soon](assets\coming soon.png) -->
+<p><img alt="hacktoberfest full logo" src="assets\Hfest-Logo-2-Color-Void.svg" />
+<center>
+   <img alt="presented by" src="assets\presented by 2022.png" />
+</center></p>
+<h1>
+      핵토버페스트 2022 글로벌 행사가 종료되었습니다.<br>
+</h1>
+<p><center>
+      <!--
+   <a href="https://hacktoberfest.digitalocean.com/">공식 홈페이지로 가기 </a>{: .md-button .md-button--primary }-->
+  <a target="_blank" id="button" class=" md-button md-button--primary" href="https://hacktoberfest.digitalocean.com/"><img class="image" src="assets\Hfest-Logo-2-Color-Manga.svg">공식 홈페이지로 가기</a>
+</center></p>
+<p><a href="https://github.com/phg98/hacktoberfestkorea/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/phg98/hacktoberfestkorea" /></a>
+<a href="https://github.com/phg98/hacktoberfestkorea/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/phg98/hacktoberfestkorea" /></a>
+<a href="https://github.com/phg98/hacktoberfestkorea/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/phg98/hacktoberfestkorea" /></a></p>
+<h2 id="notice">공지 사항</h2>
+<ul>
+<li><a href="https://event-us.kr/m/48142/1357">핵토버페스트 서울 2022</a> 지역 행사의 등록이 시작되었습니다.<a href="https://event-us.kr/m/48142/1357">이벤트 페이지로 가기</a>  </li>
+<li>올해에는 간단한 PR을 받는 초보자용 저장소들이 행사에서 제외되고 있습니다.(Excluded Project) PR보내실때 유의하시기 바랍니다.  </li>
+<li>온라인으로 모여 같이 도전하는 소소한 모임이 열립니다. 10/08 토,09 일 10:00 AM - 20:00 PM GatherTown  <a href="https://gist.github.com/ohahohah/73877460722c0922195bac995479cfae">안내 링크</a>  </li>
+</ul>
+<p><center>
+ <br />
+<h1> Hacktoberfest는 오픈 소스를 지원하고, <br/> 멋진 티셔츠를 받을 수 있는 행사입니다! </h1></p>
+<p> 이 사이트는 한국 개발자들을 위한 <b>비공식(Unofficial)</b> 사이트 입니다. </p>
+<p> 자세한 내용은 공식 홈페이지를 참고하세요.</p>
+<!--
+   [공식 홈페이지로 가기 ](https://hacktoberfest.digitalocean.com/){: .md-button .md-button--primary }-->
+<p><a target="_blank" id="button" class=" md-button md-button--primary" href="https://hacktoberfest.digitalocean.com/"><img class="image" src="assets\Hfest-Logo-2-Color-Manga.svg">공식 홈페이지로 가기</a>
+</center></p>
+<!-- <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/b_0rjUNK5zY' frameborder='0' allowfullscreen></iframe></div>
+<p>(한글자막 제공 : 이소울님)</p>  -->
+
+<h2 id="hacktoberfest">핵토버페스트(Hacktoberfest)란?</h2>
+<ul>
+<li>DigitalOcean사에서 주관하는 오픈소스 소프트웨어 행사로서 올해로 9회째인 행사입니다.</li>
+<li>10월 한달동안 오픈소스 저장소에 작은 기여를 하면 <strong>무료티셔츠</strong>를 기념품으로 받을 수 있습니다.</li>
+<li>그외에도 <a href="https://hacktoberfest-swag.com/">다양한 이벤트</a>들이 진행됩니다.
+<center><img alt="2021년 기념품" src="img\2021 tshirt.jpg" /></center>
+<center>2021년 기념품 티셔츠</center></li>
+</ul>
+<h2 id="rules-of-events">행사 규칙</h2>
+<ul>
+<li>
+<p>먼저 <strong>행사 등록</strong>을 해야 합니다. <a href="https://hacktoberfest.digitalocean.com/">공식 홈페이지</a>에서 등록 가능합니다. 9/26~10/31 기간중 언제든 등록가능합니다. 등록을 위해서는 Github 또는 Gitlab 계정이 필요합니다.</p>
+</li>
+<li>
+<p>Github 또는 Gitlab의 저장소중 'hacktoberfest'라는 topic이 붙어있는 저장소에 <strong>4개의 풀리퀘스트</strong>를 작성하면 됩니다.</p>
+</li>
+<li>
+<p>작성된 풀리퀘스트에 대해서 <strong>저장소 관리자가 승인하거나 머지</strong>하면 카운트됩니다. 4개의 풀리퀘스트가 카운트되면 기념품을 받을 자격이 됩니다.</p>
+</li>
+<li>
+<p>올해에는 40,000장의 티셔츠가 준비되어있습니다. 티셔츠 대신 '나무심기'를 선택하면 본인의 이름으로 나무를 심는 옵션도 있습니다.</p>
+</li>
+<li>
+<p>2020년도 행사시 일부 참가자들이 스팸 PR을 올려서 문제가 되었습니다. 좋은 취지의 행사를 계속 이어갈 수 있도록 <strong>적절한 풀리퀘스트</strong>를 작성하도록 유의하세요. 만약 저장소 관리자가 당신의 풀리퀘스트를 스팸이나 부적절하다고 신고할 경우 참가자격을 박탈당하게 됩니다. <a href="https://hacktoberfest.digitalocean.com/participation/#pr-mr-details">세부사항참조</a></p>
+</li>
+</ul>
+<!--
+## 저장소 관리자 혜택 {#for-maintainer}
+- 올해에는 저장소 관리자도 기념품을 받을 수 있습니다
+    - 행사 등록시 Maintainer를 선택
+    - 행사 참여할 저장소에 hacktoberfest 토픽을 추가
+    - 행사 참여 저장소에 생성된 PR에 대해 아래와 같은 액션을 4회 실행시 자격 인정
+        - PR 머지 또는 리뷰 승인 또는 'hacktoberfest-accepted' 라벨 부여
+        - 문제되는 PR에 대해서 'invalid' 또는 'spam' 라벨 부여
+- 저장소 관리자를 위해서는 10,000장의 티셔츠가 준비되어 있으며, 이를 초과할 경우 PR의 갯수에 따라 결정됩니다.
+-->
+<h2 id="low-code-no-code">로우코드, 노코드 참여</h2>
+<ul>
+<li>올해에는 로우코드(low-code), 노코드(no-code) 참여를 공식적으로 허용하고 강조하고 있습니다.<ul>
+<li>번역, 디자인, 소셜미디어 홍보(블로그, 비디오 등)도 기여로 카운트됩니다. PR을 올려서 내용을 확인가능하도록 하면 되겠습니다.</li>
+</ul>
+</li>
+</ul>
+<h2 id="review-of-previous-event-participation">이전 행사 참여 후기</h2>
+<p>이전에 참여했던 분들중 후기를 쓰셨던 분들은 아래에 링크해 주시면 새로운 사람들이 둘러보는데 도움이 되겠습니다.</p>
+<p>2021년 후기</p>
+<ul>
+<li>'Mike Kim 개발 블로그'의 <a href="https://kys9261.github.io/2021/10/20/programming/life/2021-hacktoberfest/">2021 핵토버페스트 첫 참가기!</a></li>
+<li>'Hello, world! 블로그'의 <a href="https://blog.naver.com/hyeonjun7/222690170733">Hacktoberfest 핵토버페스트 2021 후기</a></li>
+</ul>
+<p>2020년 후기</p>
+<ul>
+<li>'코드리뷰, 좀 쉬운 방법은 없을까? 블로그'의 <a href="https://blog.naver.com/phg98/222126175319">2020년 Hacktoberfest참가 후기</a></li>
+</ul>
+<p>2019년 이전 후기</p>
+<ul>
+<li>'코드리뷰, 좀 쉬운 방법은 없을까? 블로그'의 <a href="https://blog.naver.com/phg98/221374231575">2018년 Hacktoberfest참가 후기</a></li>
+<li>'플라네타리움 엔지니어링 스낵'의 2019년 <a href="https://snack.planetarium.dev/kor/2019/09/hacktoberfest/">저희와 함께 Hacktoberfest에 참가해봅시다!</a></li>
+<li>'허원철의 개발 블로그'의 2019년 <a href="https://heowc.dev/2019/11/04/2019-contributon-feat-armeria/">2019 컨트리뷰톤 (feat. Armeria)</a></li>
+<li>'매일 성장하기 블로그'의 2018년 <a href="https://edykim.com/ko/post/hacktoberfest-2018/">Hacktoberfest 2018 후기</a></li>
+<li>'amoseui 블로그'의 2018년 <a href="https://blog.amoseui.com/hacktoberfest-2018">Hacktoberfest 2018 후기</a></li>
+<li><em>기존에 참여하셨었나요? 후기를 링크해서 공유해주세요! 링크하시려면 <a href="https://github.com/phg98/hacktoberfestkorea/edit/master/docs/index.md">여기</a>를 클릭하세요.</em></li>
+</ul>
+<h2 id="hangul-project">한글 프로젝트</h2>
+<ul>
+<li><a href="https://github.com/phg98/hacktoberfestkorea">Hacktoberfest Korea</a> : 초보자를 위한 간단한 이슈들이 있습니다.</li>
+<li><a href="https://www.wslhub.com/">한국 WSL 사용자 그룹</a><ul>
+<li><a href="https://github.com/wslhub/wsl-firststep">WSL 시작하기</a> : WSL을 설치하면서 처음에 하는 일들을 모아놓은 리포지터리입니다. 이곳에 WSL에 관련된 문서를 올려주시면 좋습니다. (난이도: 하)</li>
+<li><a href="https://github.com/wslhub/wsl-sdk-com">WSL SDK</a> : WSL SDK COM 모듈 프로젝트입니다. 닷넷, COM 개발 경험이 있는 분의 컨트리뷰션을 받습니다. (난이도: 상)</li>
+<li><a href="https://github.com/wslhub/WslManager">WSL Manager</a> : WSL 배포판을 GUI 방식으로 관리할 수 있는 윈도우용 애플리케이션입니다. (난이도: 중)</li>
+<li><a href="https://github.com/wslhub/WslQuery">WslQuery</a> : WSL 배포판을 JSON 방식으로 조회하여 다른 프로그래밍 언어에서 활용하기 좋게 해줍니다. (난이도: 중)</li>
+</ul>
+</li>
+<li><a href="https://forum.dotnetdev.kr">닷넷데브</a><ul>
+<li><a href="https://github.com/yourtablecloth/TableCloth">식탁보 프로젝트</a> : 윈도우 샌드박스를 이용하여 인터넷 뱅킹, 공인 인증서 연동을 도와줍니다. 문서, 코드 기여를 받습니다. (난이도: 중상)</li>
+<li><a href="https://github.com/yourtablecloth/yourtablecloth.github.io">식탁보 홈페이지</a> : 식탁보의 사용법에 관련된 문서 기여를 받습니다. (난이도: 하)</li>
+<li><a href="https://github.com/yourtablecloth/TableClothCatalog">식탁보 카탈로그</a> : 인터넷 익스플로러가 아니면 제대로 동작하지 않는 사이트와 필요한 소프트웨어 EXE 파일 다운로드 경로를 카탈로그 형태로 관리하고 있습니다. (난이도: 중)</li>
+<li><a href="https://github.com/dotnetdev-kr/Experimental.System.Messaging">Experimental.System.Messaging</a> : 닷넷 코어 (!= 닷넷 프레임워크)용 MSMQ 라이브러리이며, MS의 레퍼런스 소스를 이식해서 만들었습니다. 코드 기여, 샘플 코드, 문서 기여를 받습니다. (난이도: 상)</li>
+</ul>
+</li>
+<li><a href="https://github.com/JaeSeoKim/react-kakao-maps-sdk">react-kakao-maps-sdk</a> : Kakao Map를 React 컴포넌트로 관리할 수 있게 랩핑한 라이브러리 입니다. 코드 기여, 샘플 코드, 문서 기여를 받습니다. (난이도: 중)</li>
+<li><a href="https://github.com/libreoffice-kr/autocorr_kr">LibreOffice 우리말 자동교정</a>: 리브레오피스(LibreOffice)의 우리말 자동교정 내용을 관리하는 저장소입니다. 자동교정 대상 낱말과 변경할 낱말을 추가하는기능 기여를 받습니다.  (난이도: 하)</li>
+<li><a href="https://github.com/saseungmin/reading_books_record_repository">reading_books_record_repository</a>: 책을 읽고 정리한 Repository이고, <a href="https://saseungmin.github.io/reading_books_record_repository/">Summary book 웹사이트</a>로 되어있습니다. 오탈자를 수정하지 않아 오탈자가 매우 많습니다. 초보자도 쉽게 오탈자를 찾아 수정하시고 기여할 수 있습니다. 기여 방법은 <a href="https://github.com/saseungmin/reading_books_record_repository#-%EC%BB%A8%ED%8A%B8%EB%A6%AC%EB%B7%B0%EC%85%98-%EB%B0%A9%EB%B2%95">여기</a>를 참고해주세요. (난이도: 하)</li>
+<li><a href="https://github.com/phg98/hacktoberfest-badge">Hacktoberfest Badge</a>: 핵토버페스트 PR을 몇개 올렸는지를 표시해주는 깃헙 프로필용 배지를 제공합니다 (난이도: 중하)</li>
+<li><a href="https://github.com/DavidYang2149/nextjs-starter">Next.js Starter</a> : Next.js에 테스트 도구를 추가한 보일러 플레이트입니다. 타입스크립트를 기본으로 하고 테스트를 위한 Jest, Testing Library 및 Cypress가 포함되어 있습니다. (난이도: 중하)</li>
+<li><em>저장소를 운영하시는 분들중에 참여하고자 하시는 분들은 <a href="https://github.com/phg98/hacktoberfestkorea/edit/master/docs/index.md">여기</a>를 클릭하세요. 저장소에 ''hacktoberfest'라는 topic을 꼭 넣어주시구요. 응원합니다!</em></li>
+</ul>
+<!-- 가능하면 한글로 된 이슈에는 "핵토버페스트"라는 한글 라벨도 붙여주시면 찾기 좋을것 같습니다. -->
+<!-- 저장소 운영하시는 분들은 다들 잘 아실테니까 설명 필요없을것 같은데, 혹시 초보자인데 등록하시려면 아래 내용대로만 하면 됩니다. -->
+<!-- 기존 내용중 한 줄 복사하여 마지막줄에 붙여넣기 하신후 내용을 본인것에 맞게 수정해 주세요 -->
+<!-- 수정이 끝나면 제일 아래에 Propose changes라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 수정하신 후에는 아래에 Propose changes라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 그럼 뭔가 복잡한 화면이 나오는데 또 다시 'Create Pull Request'라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 그럼 더 복잡한 화면이 나오는데.. 또 다시 'Create Pull Request'라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 그럼 뭔가 더 해야할 것 같은 화면이 나오는데, 안해도 됩니다. 사이트관리자가 승인하면 게시되구요, 링크가 깨진다던지 문제가 있다면 연락이 옵니다. -->
+
+<p><a href="https://phg98.github.io/hacktoberfestkorea2021/#hangul-project">2021년 핵토버페스트에 참가했던 한글 프로젝트 링크</a>
+<a href="https://phg98.github.io/hacktoberfestkorea2020/#hangul-project">2020년 핵토버페스트에 참가했던 한글 프로젝트 링크</a></p>
+<h2 id="a-project-for-beginners">영문 초보자용 프로젝트</h2>
+<p>영어에 두려움이 없으시다면 아래의 초보자용 사이트를 참고하세요.
+<a href="https://hacktoberfest.digitalocean.com/">공식홈페이지</a>에서 더 많은 프로젝트를 찾을 수 있습니다.</p>
+<ul>
+<li><a href="https://github.com/EbookFoundation/free-programming-books/blob/main/docs/CONTRIBUTING-ko.md">EbookFoundation/free-programming-books</a> : 프로그래밍과 관련된 무료 강의나 도서들을 아카이빙하는 프로젝트입니다. 간단하게 마크다운 파일만 수정하면 됩니다. (한글도 있음)</li>
+<li><a href="https://github.com/cloud-barista/cb-tumblebug">Cloud-Barista/CB-Tumblebug</a> :  멀티 클라우드 관리 SW</li>
+<li><a href="https://github.com/tldr-pages/tldr">tldr-pages/tldr</a> : 기존의 man을 사용하는 매뉴얼보다 실용적이고 더 간편한 매뉴얼을 만드는 프로젝트입니다. 마크다운으로 만들어진 영문 매뉴얼을 번역하셔서 추가하시면 됩니다.</li>
+<li><a href="https://github.com/lovefields/figma-repeat-grid">figma-repeat-grid</a> : 피그마 플러그인 "Repeat Grid" 저장소 입니다.</li>
+<li><a href="https://github.com/serhii-londar/open-source-mac-os-apps/blob/master/CONTRIBUTING.md">serhii-londar/open-source-mac-os-apps</a> : MacOS용 오픈소스 어플리케이션을 모으는 프로젝트입니다. 가이드라인에 맞춰 json 파일을 수정하면 됩니다.</li>
+<li><em>좋은 영문 초보자용 프로젝트를 찾으셨나요? 링크해서 공유해주세요! 링크하시려면 <a href="https://github.com/phg98/hacktoberfestkorea/edit/master/docs/index.md">여기</a>를 클릭하세요.</em></li>
+</ul>
+<!-- 기존 내용중 한 줄 복사하여 마지막줄에 붙여넣기 하신후 내용을 본인것에 맞게 수정해 주세요 -->
+<!-- 수정이 끝나면 제일 아래에 Propose changes라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 수정하신 후에는 아래에 Propose changes라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 그럼 뭔가 복잡한 화면이 나오는데 또 다시 'Create Pull Request'라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 그럼 더 복잡한 화면이 나오는데.. 또 다시 'Create Pull Request'라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 그럼 뭔가 더 해야할 것 같은 화면이 나오는데, 안해도 됩니다. 사이트관리자가 승인하면 게시되구요, 링크가 깨진다던지 문제가 있다면 연락이 옵니다. -->
+
+<h2 id="current-participant-list">현재 참여자 리스트</h2>
+<ul>
+<li><a href="https://www.facebook.com/photo/?fbid=5370410346375201&amp;set=gm.1255139231909305&amp;idorvanity=788404381916128">phg98</a></li>
+<li><a href="https://dico.me/etc/articles/317">Lovefield</a></li>
+<li><a href="https://github.com/DavidYang2149">Davidyang2149</a></li>
+<li><a href="https://blog.naver.com/hyeonjun7">c2lv</a></li>
+<li><a href="https://github.com/saseungmin">Harang</a></li>
+<li><a href="https://github.com/sideseal">sideseal</a></li>
+<li><a href="https://github.com/studioego">studioego</a></li>
+<li><a href="https://github.com/Najeong-Kim">Najeong-Kim</a></li>
+<li><a href="https://github.com/Hoon333">Hoon333</a></li>
+<li><a href="https://github.com/chichoon">chichoon</a></li>
+<li>
+<p><a href="https://github.com/yeslee-v">yeslee-v</a></p>
+</li>
+<li>
+<p>참여하시는 분들은 참여의사를 표시한 블로그, 저장소, 홈페이지 등을 링크해 주세요. 링크하시려면 <a href="https://github.com/phg98/hacktoberfestkorea/edit/master/docs/index.md">여기</a>를 클릭하세요.  5분이면 됩니다!</p>
+</li>
+</ul>
+<!-- 기존 내용중 한 줄 복사하여 마지막줄에 붙여넣기 하신후 내용을 본인것에 맞게 수정해 주세요 -->
+<!-- 수정이 끝나면 제일 아래에 Propose changes라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 그럼 뭔가 복잡한 화면이 나오는데 또 다시 'Create Pull Request'라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 그럼 더 복잡한 화면이 나오는데.. 또 다시 'Create Pull Request'라는 녹색 버튼을 꾹 누르세요! -->
+<!-- 그럼 뭔가 더 해야할 것 같은 화면이 나오는데, 안해도 됩니다. 사이트관리자가 승인하면 게시되구요, 링크가 깨진다던지 문제가 있다면 연락이 옵니다. -->
+
+<p><a href="https://phg98.github.io/hacktoberfestkorea2021/#current-participant-list">2021년 참여자 링크</a>
+<a href="https://phg98.github.io/hacktoberfestkorea2020/#current-participant-list">2020년 참여자 링크</a></p>
+<h2 id="associated-link">관련 링크</h2>
+<ul>
+<li>작년 내용을 보시려면 <a href="https://phg98.github.io/hacktoberfestkorea2021/">Hacktoberfest Korea 2021</a>을 참고하세요</li>
+<li>이 사이트의 Github 저장소 : <a href="https://github.com/phg98/hacktoberfestkorea">Hacktoberfest Korea</a></li>
+<li>페이스북 : <a href="https://www.facebook.com/groups/788404381916128/">Hacktoberfest Korea Facebook</a></li>
+<li>디스코드 : <a href="https://discord.com/invite/BD3V3NC">Hacktoberfest Korea Discord</a></li>
+<li>2021년도 행사 Github 저장소 : <a href="https://github.com/phg98/hacktoberfestkorea2021">Hacktoberfest Korea 2021</a></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      This is korean fan page of Hacktoberfest
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      
+        <script src="javascript/ie_compatibility.js"></script>
+      
+    
+  </body>
+</html>
